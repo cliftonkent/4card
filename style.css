@@ -1,0 +1,96 @@
+body {
+    background-color:hsl(0, 0%, 98%);
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 200;
+}
+h5 {
+     font-size: 1.25rem;
+
+}
+.bold {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+h1 {
+    font-family: "Poppins";
+    font-weight: 200;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.texttop {
+    font-family: "Poppins";
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+    
+}
+img {
+    padding-left: 12rem;
+}
+
+.super {
+    margin: 1.5rem ;
+    padding: 1rem;
+    border-radius: 7px;
+    background-color: white;
+    border: 3px solid transparent;
+    border-top-color: blue;
+    }
+
+.team {
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 7px;
+    background-color: white;
+    border: 3px solid transparent;
+    border-top-color: cyan;
+}
+
+.karma {
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 7px;
+    background-color: white;
+    border: 3px solid transparent;
+    border-top-color: red;
+    }
+
+.cal {
+    padding: 1rem;
+    margin: 1.5rem;
+    border-radius: 7px;
+    background-color: white;
+    border: 3px solid transparent;
+    border-top-color: orange;
+}    
+
+@media (min-width: 31rem) {
+    .grid {
+        padding-left: 7rem;
+        padding-right: 7rem;
+        padding-bottom: 7rem;
+        height: 50%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .super {
+        grid-row: 2 / span 2;
+    }
+    .team {
+        grid-column: 2;
+        grid-row: 1 / span 2 ;
+    }
+    .karma {
+        grid-column: 2;
+        grid-row: 3 / span 2;
+    }
+    .cal {
+        grid-column: 3;
+        grid-row: 2 / span 2 ;
+    }
+    
+}
